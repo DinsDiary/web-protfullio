@@ -37,7 +37,7 @@ section {
   transition: background-color 0.3s ease;
 }
 .dream-area {
-  background-image: url('images/my-bg.png');
+  background-image: url('images/dream-bg.png');
   background-repeat: no-repeat;
   background-position: right;
 }
