@@ -6,7 +6,7 @@ h1 {
   font-size: 50px;
 }
 .namehighlight {
-  color: orange;
+  color: lightgreen;
 }
 .half-width {
   width: 40%;
@@ -20,10 +20,24 @@ h1 {
 }
 .top-banner {
   
-  background-image: url('images/top-banner.jpg');
+  background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
 }
 section {
   height: 500px;
   
+}
+.link-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.dream-area {
+  background-image: url('images/my-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
