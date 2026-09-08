@@ -15,25 +15,40 @@ p {
   color: lightgreen;
 }
 .half-width {
-  width: 40%;
+   width: 40%;
   float: left;
   margin-left: 5%;
-  padding-left: 2%;
+  padding-left: 2%; 
 }
+
+
 .half-width img {
   width: 100%;
   
+}
+#margin-top{
+  margin-top: 3%;
+}
+#margin{
+  margin-top: 5%;
+}
+#left{
+  margin-top: 5%;
 }
 .top-banner {
   
   background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
+  
+  
 }
 section {
-  height: 500px;
+  min-height: 550px;
+  height: auto;
   padding-bottom: 150px;
   
 }
+
 .link-button {
   display: inline-block;
   padding: 10px 20px;
@@ -47,6 +62,8 @@ section {
   background-image: url('images/dream-bg.png');
   background-repeat: no-repeat;
   background-position: right;
+  
+  
 
 }
   
@@ -59,9 +76,9 @@ float: none;
 width: 40%;
 margin: 2% 4%;
 box-sizing: border-box;
-height: 35%;
+height: 40%;
 text-align: left;
-
+padding: 2%;
 }
 
 
@@ -69,8 +86,10 @@ text-align: left;
   background-image: url('images/exp-bg.png');
   background-repeat: no-repeat;
   background-position: left;
-  clear:both;
-  
+  margin-top: 20%;
+}
+#center{
+  text-align: center;
 }
 
 #full 
@@ -88,4 +107,5 @@ text-align: left;
 footer {
   
   text-align: center;
+  
 }
